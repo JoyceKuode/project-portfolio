@@ -1,19 +1,18 @@
 // Assets
-import PortfolioPic from '../assets/portfolio-pic.jpg'
-import LinkedInBtn from '../assets/linkedin-btn.svg'
-import GithubBtn from '../assets/github-btn.svg'
-import StackoverflowBtn from '../assets/stackoverflow-btn.svg'
-import InstagramBtn from '../assets/instagram-btn.svg'
+import PortfolioPic from "../assets/portfolio-pic.jpg";
+import LinkedInBtn from "../assets/linkedin-btn.svg";
+import GithubBtn from "../assets/github-btn.svg";
+// import InstagramBtn from "../assets/instagram-btn.svg";
 
 // Components
-import { SocialMediaIcon } from '../components/SocialMediaIcon/SocialMediaIcon'
+import { SocialMediaIcon } from "../components/SocialMediaIcon/SocialMediaIcon";
 
 // UI elements
-import { Grid } from '../ui/Grid/Grid'
-import { SectionTitle } from '../ui/Typography/Typography'
+import { Grid } from "../ui/Grid/Grid";
+import { SectionTitle } from "../ui/Typography/Typography";
 
 // Styles
-import './ContactSection.css'
+import "./ContactSection.css";
 
 export const ContactSection = () => {
   return (
@@ -22,7 +21,11 @@ export const ContactSection = () => {
         <SectionTitle>Let&#39;s Talk</SectionTitle>
         <div className="contact-container">
           <div className="contact-photo-container">
-            <img className="contact-photo" src={PortfolioPic} alt="headshot of Joyce Kuo" />
+            <img
+              className="contact-photo"
+              src={PortfolioPic}
+              alt="headshot of Joyce Kuo"
+            />
           </div>
           <div className="contact-info">
             <p>Joyce Kuo</p>
@@ -42,21 +45,15 @@ export const ContactSection = () => {
               altText="GitHub profile"
               ariaLabel="Visit GitHub profile (opens in a new window)"
             />
-            <SocialMediaIcon
-              link="https://stackoverflowteams.com/c/technigo/users/646/?tab=profile"
-              icon={StackoverflowBtn}
-              altText="Stack Overflow profile"
-              ariaLabel="Visit Stack Overflow profile (opens in a new window)"
-            />
-            <SocialMediaIcon
+            {/* <SocialMediaIcon
               link="https://www.instagram.com/statiskuo/"
               icon={InstagramBtn}
               altText="Instagram profile"
               ariaLabel="Visit Instagram profile (opens in a new window)"
-            />
+            /> */}
           </div>
         </div>
       </section>
     </Grid>
-  )
-}
+  );
+};

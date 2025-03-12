@@ -1,35 +1,50 @@
 {
   "skills": [
     {
-      "title": "Code",
+      "title": "Frontend",
       "skills": [
         "HTML5",
         "CSS3",
         "JavaScript ES6",
         "React",
+        "React Router",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Angular",
+        "Accessibility",
+        "Responsive Design"
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
         "Node.js",
-        "GitHub",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "MySQL",
+        "Python",
         "Java",
-        "Springboot",
-        "C++",
-        "Python"
+        "Spring Boot",
+        "Ruby on Rails",
+        "RESTful APIs",
+        "Authentication"
       ]
     },
     {
       "title": "Toolbox",
       "skills": [
+        "VS Code",
         "Postman",
-        "Figma",
+        "GitHub",
         "Lighthouse",
-        "Slack",
         "AI Tools",
-        "Git Bash",
-        "CodePen"
+        "Notion",
+        "Slack",
+        "Netlify",
+        "Render"
       ]
-    },
-    {
-      "title": "Upcoming",
-      "skills": ["Typescript", "Express", "MongoDB", "Ruby on Rails"]
     },
     {
       "title": "More",
@@ -39,8 +54,7 @@
         "Problem solving",
         "Mob programming",
         "Agile methodology",
-        "Debugging and testing",
-        "Accessibility"
+        "Debugging and testing"
       ]
     }
   ]

@@ -36,6 +36,7 @@
 
 .card-tags {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 0.25rem;
   align-self: stretch;

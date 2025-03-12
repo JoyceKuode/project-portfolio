@@ -13,6 +13,7 @@ export const ImageSection = () => {
           <img
             src={displayProjects[1].image}
             alt={`Image of ${displayProjects[1].name}`}
+            loading="eager"
           />
         </div>
         <div className="image-card center-image">

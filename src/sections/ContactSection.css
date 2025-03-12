@@ -51,8 +51,9 @@ h2 {
 .social-links {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   gap: 2rem;
+  overflow: hidden;
 }
 
 /* Tablet */
